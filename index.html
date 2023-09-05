@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Best Five</title>
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body>
+    <!-- header startet -->
+   <header class="bg-black w-auto h-auto flex items-center">
+        <div>
+            <img class="max-w-none relative top-6" src="images/Mbape.png" alt="">
+        </div>
+        <div class="mr-40">
+            <h1 class="text-center text-5xl text-orange-400 mb-5 font-bold">Select Your Best Five Player</h1>
+            <p class="text-white text-center">Football Team Line up using our beautifully designed Football template. Please select your best football player from here and design your beautifull team to face the strong opponent ! good luck with your choice</p>
+        </div>
+        <div class="static">
+            <img class="relative top-36"  src="images/Rectangle 57.png" alt="">
+            <img class="absolute right-0 w-16 top-96" src="images/soccer-goal-top-png-8 4.png" alt="">
+        </div>
+   </header>
+   <!-- main-startet -->
+   <main class="bg-gray-900 m-0">
+        <div class="info mx-40 flex justify-between">
+            <section class="players grid grid-cols-3 gap-6 my-24">
+                <div class="w-64 h-auto flex flex-col justify-center items-center border border-white ">
+                    <img class="w-auto mb-5" src="images/Messi.png" alt="">
+                    <h3 class="text-white text-xl text-center">Lionel Messi</h3>
+                    <p class="text-gray-500 text-center mt-2">40 Goal : 190 Assist</p>
+                    <button id="messi"  class="bg-sky-500 hover:bg-sky-700  w-48 text-white py-2 my-5 "  type="button">Select</button>
+                </div>
+                <div class="w-64 h-auto flex flex-col justify-center items-center border border-white ">
+                    <img class="w-auto mb-5" src="images/neymar.png" alt="">
+                    <h3 class="text-white text-xl text-center">Neymar Jr.</h3>
+                    <p class="text-gray-500 text-center mt-2">36 Goal : 180 Assist</p>
+                    <button id="neymer" class="bg-sky-500 hover:bg-sky-700 w-48 text-white py-2 my-5 " type="button">Select</button>
+                </div>
+                <div class="w-64 h-auto flex flex-col justify-center items-center border border-white ">
+                    <img class="w-auto mb-5" src="images/kilian.png" alt="">
+                    <h3 class="text-white text-xl text-center">Kylian Mbappé</h3>
+                    <p class="text-gray-500 text-center mt-2">35 Goal : 150 Assist</p>
+                    <button id="mbape" class="bg-sky-500 hover:bg-sky-700 w-48 text-white py-2 my-5 " type="button">Select</button>
+                </div>
+                <div class="w-64 h-auto flex flex-col justify-center items-center border border-white ">
+                    <img class="w-auto mb-5" src="images/vitor.png" alt="">
+                    <h3 class="text-white text-xl text-center">Vítor Machado</h3>
+                    <p class="text-gray-500 text-center mt-2">30 Goal : 170 Assist</p>
+                    <button id="vitor" class="bg-sky-500 hover:bg-sky-700 w-48 text-white py-2 my-5 " type="button">Select</button>
+                </div>
+                <div class="w-64 h-auto flex flex-col justify-center items-center border border-white ">
+                    <img class="w-auto mb-5" src="images/sergio.png" alt="">
+                    <h3 class="text-white text-xl text-center">Sergio Ramos</h3>
+                    <p class="text-gray-500 text-center mt-2">30 Goal : 180 Assist</p>
+                    <button id="ramos" class="bg-sky-500 hover:bg-sky-700 w-48 text-white py-2 my-5 " type="button">Select</button>
+                </div>
+                <div class="w-64 h-auto flex flex-col justify-center items-center border border-white ">
+                    <img class="w-auto mb-5" src="images/renato.png" alt="">
+                    <h3 class="text-white text-xl text-center">Renato Sanches</h3>
+                    <p class="text-gray-500 text-center mt-2">27 Goal : 160 Assist</p>
+                    <button id="renato" class="bg-sky-500 hover:bg-sky-700 w-48 text-white py-2 my-5 " type="button">Select</button>
+                </div>
+                <div class="w-64 h-auto flex flex-col justify-center items-center border border-white ">
+                    <img class="w-auto mb-5" src="images/ronado.png" alt="">
+                    <h3 class="text-white text-xl text-center">Ronaldo</h3>
+                    <p class="text-gray-500 text-center mt-2">40 Goal : 170 Assist</p>
+                    <button id="Ronaldo" class="bg-sky-500 hover:bg-sky-700 w-48 text-white py-2 my-5 " type="button">Select</button>
+                </div>
+                <div class="w-64 h-auto flex flex-col justify-center items-center border border-white ">
+                    <img class="w-auto mb-5" src="images/luka.png" alt="">
+                    <h3 class="text-white text-xl text-center">Luka Modric</h3>
+                    <p class="text-gray-500 text-center mt-2">38 Goal : 180 Assist</p>
+                    <button id="Luka" class="bg-sky-500 hover:bg-sky-700 w-48 text-white py-2 my-5 " type="button">Select</button>
+                </div>
+                <div class="w-64 h-auto flex flex-col justify-center items-center border border-white ">
+                    <img class="w-auto mb-5" src="images/mezut.png" alt="">
+                    <h3 class="text-white text-xl text-center">Mezut özil</h3>
+                    <p class="text-gray-500 text-center mt-2">34 Goal : 190 Assist</p>
+                    <button id="Mezut" class="bg-sky-500 hover:bg-sky-700 w-48 text-white py-2 my-5 " type="button">Select</button>
+                </div>
+            </section>
+            <section class="slection-info grid grid-cols-1 gap-y-6 my-24"">
+                
+                 <div  class="w-64 h-auto text-white flex flex-col items-baseline border border-white p-4">
+                    <h2 class="text-white ps-14 pt-1 pb-5 text-2xl underline underline-offset-8">Select - V</h2>
+                    <ol id="selection" class="list-decimal ps-5 pt-5">
+                        
+                    </ol>
+                </div>
+                <div class="w-64 h-max flex flex-col items-baseline border border-white p-4 ">
+                    <h2 class="text-white ps-14 pt-1 text-2xl underline underline-offset-8">Budget</h2>
+                    <div class="mt-5"> 
+                        <p class="text-white inline-block w-20">Per Player</p>
+                        <input id="player-cost" class="border border-white inline-block w-1/2" type="text"  >
+                    </div>
+                    <button id="calculate" class="bg-sky-500 hover:bg-sky-700 w-full text-white py-2 mt-5" type="button">Calculate</button>
+                    <p class="text-white mt-5">Player Expences $ <Span>00</Span></p>
+                    <div class="mt-10"> 
+                        
+                        <div class="my-2">
+                            <p class="text-white inline-block w-20">Manager</p>
+                            <input class="border border-white inline-block w-1/2" type="text"  >
+                        </div>
+                        <div>
+                            <p class="text-white inline-block w-20">Coach</p>
+                            <input class="border border-white inline-block w-1/2" type="text"  >
+                        </div>
+                        <button class="bg-sky-500 hover:bg-sky-700 w-full text-white py-2 my-5" type="button">Calculate Total</button>
+                        <p class="text-white flex justify-between">Total <span class="text-right text-yellow-500 ">$ <Span>00</Span></span> </p>
+                    </div>
+                    <p></p>
+                    
+                </div>
+            </section>
+        </div>
+        <hr class="border border-zinc-500">
+   </main>
+   <footer class="bg-gray-900 h-auto">
+        
+       <div> <p class="text-center p-20 text-white"> Copyright 2023 @ KhaledPexp All Right Reserved! </p></div>
+
+   </footer>
+   <script src="js/main.js"></script>
+   <script src="js/utilities.js"></script>
+    
+    
+</body>
+</html>
