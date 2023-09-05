@@ -1,5 +1,3 @@
-console.log('utilities');
-
 const messi = document.getElementById('messi');
 const neymer = document.getElementById('neymer');
 const mbape = document.getElementById('mbape');
