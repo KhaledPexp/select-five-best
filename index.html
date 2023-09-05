@@ -14,17 +14,21 @@
         <div>
             <img class="max-w-none relative top-6" src="images/Mbape.png" alt="">
         </div>
-        <div class="mr-40">
+        <div class="mr-40 flex flex-col items-center justify-center">
             <h1 class="text-center text-5xl text-orange-400 mb-5 font-bold">Select Your Best Five Player</h1>
-            <p class="text-white text-center">Football Team Line up using our beautifully designed Football template. Please select your best football player from here and design your beautifull team to face the strong opponent ! good luck with your choice</p>
+            <p class="text-white text-center mb-5">Football Team Line up using our beautifully designed Football template. Please select your best football player from here and design your beautifull team to face the strong opponent ! good luck with your choice</p>
+            <a href="#main-container"  class="bg-sky-500 hover:bg-sky-700  w-60 text-white py-3 rounded my-5 block text-center"  type="button">Slelect Your Best Five</a>
+            
         </div>
+        
+
         <div class="static">
             <img class="relative top-36"  src="images/Rectangle 57.png" alt="">
             <img class="absolute right-0 w-16 top-96" src="images/soccer-goal-top-png-8 4.png" alt="">
         </div>
    </header>
    <!-- main-startet -->
-   <main class="bg-gray-900 m-0">
+   <main id="main-container" class="bg-gray-900 m-0">
         <div class="info mx-40 flex justify-between">
             <section class="players grid grid-cols-3 gap-6 my-24">
                 <div class="w-64 h-auto flex flex-col justify-center items-center border border-white ">
@@ -84,8 +88,8 @@
             </section>
             <section class="slection-info grid grid-cols-1 gap-y-6 my-24"">
                 
-                 <div  class="w-64 h-60 text-white flex flex-col items-baseline border border-white p-4">
-                    <h2 class="text-white ps-14 pt-1 pb-5 text-2xl underline underline-offset-8">Select - V</h2>
+                 <div  class="w-64 h-auto text-white flex flex-col items-baseline border border-white p-4">
+                    <h2 class="text-white ps-14 pt-1 pb-5 text-2xl underline underline-offset-8">Selected - V</h2>
                     <ol id="selection" class="list-decimal ps-5 pt-5">
                         
                     </ol>
@@ -119,9 +123,12 @@
         <hr class="border border-zinc-500">
    </main>
    <!-- footer-startet -->
-   <footer class="bg-gray-900 h-auto">
+   <footer id="footer-container" class="bg-black h-auto">
         
-       <div> <p class="text-center p-20 text-white"> Copyright 2023 @ KhaledPexp All Right Reserved! </p></div>
+       <div class="text-center p-14 text-white"> 
+       <p> Technology Used : HTML5 | Tailwindcss | Javascript | Node Js</p>
+        <p > Copyright 2023 @ KhaledPexp All Right Reserved! </p>
+       </div>
 
    </footer>
    <script src="js/main.js"></script>
