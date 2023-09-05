@@ -10,27 +10,27 @@
 </head>
 <body>
     <!-- header startet -->
-   <header class="bg-black w-auto h-auto flex items-center">
+   <header class="bg-black w-auto h-auto flex items-center max-sm:flex-col max-sm:items-center max-sm:align-middle max-sm:mx-auto md:max-lg:flex-col  md:max-lg:items-center md:max-lg: mx-auto sm:max-md:flex-col sm:max-md:items-center  ">
         <div>
             <img class="max-w-none relative top-6" src="images/Mbape.png" alt="">
         </div>
-        <div class="mr-40 flex flex-col items-center justify-center">
+        <div class="flex">
+            <div class="mr-40 flex flex-col items-center justify-center max-sm:mx-auto sm:max-md:mx-auto md:max-lg:mx-auto max-sm:p-5 sm:max-md:p-5 md:max-lg:p-5">
             <h1 class="text-center text-5xl text-orange-400 mb-5 font-bold">Select Your Best Five Player</h1>
             <p class="text-white text-center mb-5">Football Team Line up using our beautifully designed Football template. Please select your best football player from here and design your beautifull team to face the strong opponent ! good luck with your choice</p>
             <a href="#main-container"  class="bg-sky-500 hover:bg-sky-700  w-60 text-white py-3 rounded my-5 block text-center"  type="button">Slelect Your Best Five</a>
             
         </div>
-        
-
-        <div class="static">
-            <img class="relative top-36"  src="images/Rectangle 57.png" alt="">
+        <div class="static sm:max-md:hidden md:max-lg:hidden max-sm:hidden lg:max-xl:hidden">
+            <img class="relative top-40"  src="images/Rectangle 57.png" alt="">
             <img class="absolute right-0 w-16 top-96" src="images/soccer-goal-top-png-8 4.png" alt="">
         </div>
+    </div>
    </header>
    <!-- main-startet -->
    <main id="main-container" class="bg-gray-900 m-0">
-        <div class="info mx-40 flex justify-between">
-            <section class="players grid grid-cols-3 gap-6 my-24">
+        <div class="info mx-40 flex justify-between max-sm:block max-sm:mx-16 sm:max-md:block sm:max-md:mx-24 md:max-lg:block md:max-lg:mx-24 lg:max-xl:block lg:max-xl:mx-28">
+            <section class="players grid grid-cols-3 gap-6 pt-24 pb-10 max-sm:grid-cols-1 sm:max-md:grid-cols-2  md:max-lg:grid-cols-2 lg:max-xl:grid-cols-3">
                 <div class="w-64 h-auto flex flex-col justify-center items-center border border-white ">
                     <img class="w-auto mb-5" src="images/Messi.png" alt="">
                     <h3 class="text-white text-xl text-center">Lionel Messi</h3>
@@ -79,14 +79,14 @@
                     <p class="text-gray-500 text-center mt-2">38 Goal : 180 Assist</p>
                     <button id="Luka" class="bg-sky-500 hover:bg-sky-700 w-48 text-white py-2 my-5 " type="button">Select</button>
                 </div>
-                <div class="w-64 h-auto flex flex-col justify-center items-center border border-white ">
+                <div class="w-64 h-auto flex flex-col justify-center items-center border border-white sm:max-md:hidden md:max-lg:hidden">
                     <img class="w-auto mb-5" src="images/mezut.png" alt="">
                     <h3 class="text-white text-xl text-center">Mezut özil</h3>
                     <p class="text-gray-500 text-center mt-2">34 Goal : 190 Assist</p>
                     <button id="Mezut" class="bg-sky-500 hover:bg-sky-700 w-48 text-white py-2 my-5 " type="button">Select</button>
                 </div>
             </section>
-            <section class="slection-info grid grid-cols-1 gap-y-6 my-24"">
+            <section class="slection-info grid grid-cols-1 gap-y-6 my-24 max-sm:grid-cols-1 sm:max-md:grid-cols-2  md:max-lg:grid-cols-2 lg:max-xl:grid-cols-2">
                 
                  <div  class="w-64 h-auto text-white flex flex-col items-baseline border border-white p-4">
                     <h2 class="text-white ps-14 pt-1 pb-5 text-2xl underline underline-offset-8">Selected - V</h2>
@@ -125,7 +125,7 @@
    <!-- footer-startet -->
    <footer id="footer-container" class="bg-black h-auto">
         
-       <div class="text-center p-14 text-white"> 
+       <div class="text-center p-12 text-white"> 
        <p> Technology Used : HTML5 | Tailwindcss | Javascript | Node Js</p>
         <p > Copyright 2023 @ KhaledPexp All Right Reserved! </p>
        </div>
@@ -133,7 +133,5 @@
    </footer>
    <script src="js/main.js"></script>
    <script src="js/utilities.js"></script>
-    
-    
 </body>
 </html>
